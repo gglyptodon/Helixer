@@ -1,3 +1,5 @@
+[![Python CI](https://github.com/weberlab-hhu/Helixer/actions/workflows/python-app.yml/badge.svg)](https://github.com/weberlab-hhu/Helixer/actions/workflows/python-app.yml)
+
 # Helixer
 Gene calling with Deep Neural Networks.
 
@@ -174,7 +176,7 @@ LSTM architeture for 5 epochs and save the best iteration
 `example/best_helixer_model.h5`. 
 
 ```shell script
-python3 helixer/prediction/DanQModel.py --data-dir example/train/ --save-model-path example/best_helixer_model.h5 --epochs 5 
+python helixer/prediction/DanQModel.py --data-dir example/train/ --save-model-path example/best_helixer_model.h5 --epochs 5 
 ```
 
 The rest of this example will continue with the model example/best_helixer_model.h5 produced above. 
